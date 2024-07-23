@@ -14,7 +14,7 @@ function WorkingBlock() {
 
           <div className="">
             <div className="grid md:grid-cols-3 grid-cols-1 gap-2">
-              <div className="flex justify-center items-end relative ">
+              <div className="flex justify-center items-end relative md:mb-0 mb-8">
                 <div className="absolute md:left-28 md:-top-48   flex justify-center items-start ">
                   <img
                     src={workingImg}
@@ -40,7 +40,7 @@ function WorkingBlock() {
                 </div>
               </div>
 
-              <div className="flex justify-center items-end  ">
+              <div className="flex justify-center items-end   md:mb-0 mb-8">
                 <div className="bg-[#FF7799] rounded-tl-full rounded-tr-full md:h-[110%] w-80 hover:scale-105 transform transition-all duration-300 hover:z-10">
                   <div className="text-center">
                     <h2 className="text-white font-montserratBold md:text-6xl text-4xl mt-16">
@@ -61,7 +61,7 @@ function WorkingBlock() {
                 </div>
               </div>
 
-              <div className="flex justify-center items-end  ">
+              <div className="flex justify-center items-end  md:mb-0 mb-8 ">
                 <div className="bg-[#FF7799] rounded-tl-full rounded-tr-full md:h-[120%] w-80 hover:scale-105 transform transition-all duration-300 hover:z-10">
                   <div className="text-center">
                     <h2 className="text-white font-montserratBold md:text-6xl text-4xl mt-16">

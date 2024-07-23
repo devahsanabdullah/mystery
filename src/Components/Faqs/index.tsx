@@ -17,13 +17,13 @@ const FAQS = () => {
       <div className="container mx-auto md:py-20 py-10 px-4 lg:px-0">
         <div className="grid md:grid-cols-12 grid-cols-6 md:gap-16 gap-8">
           {/* */}
-          <div className="md:col-span-5   col-span-6">
+          <div className="md:col-span-5  col-span-6">
           
             <h1 className="text-6xl font-bold  font-montserratBold md:block hidden text-white">FAQ’s</h1>
             <img src={faqs} alt="faqs" className="md:w-96  w-40  md:mt-10  mt-5 md:block hidden"  />
             <div className=' md:hidden flex justify-between items-center w-full'>
             <h1 className="text-6xl font-bold  font-montserratBold  text-white">FAQ’s</h1>
-            <img src={faqs} alt="faqs" className="w-40    "  />
+            <img src={faqs} alt="faqs" className="w-28"  />
             </div>
           </div>
 

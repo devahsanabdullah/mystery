@@ -79,7 +79,7 @@ function Navbar() {
                 <p
                   key={index}
                   onClick={() => setActive(v.href)}
-                  className={`font-montserratBold text-base cursor-pointer ${
+                  className={`font-montserratBold text-base uppercase cursor-pointer ${
                     active === v.href ? 'text-[#35C5C0]' : 'text-[#000000]'
                   }`}
                 >

@@ -20,8 +20,12 @@ function Home() {
         <Navbar />
         <div className=" relative h-auto lg:h-[650px]">
           <div className="md:p-8 p-4">
-            <p className="font-montserratBold md:text-4xl text-2xl">START YOUR CHILD’S </p>
-            <p className="font-montserratBold md:text-4xl text-2xl">MORNING WITH</p>
+            <p className="font-montserratBold md:text-4xl text-2xl">
+              START YOUR CHILD’S{' '}
+            </p>
+            <p className="font-montserratBold md:text-4xl text-2xl">
+              MORNING WITH
+            </p>
             <p className="font-montserratBold md:text-4xl text-2xl">WONDER</p>
             {/* <p className="font-montserratBold md:text-4xl text-2xl uppercase ">START YOUR CHILD’S MORNING WITH WONDER</p> */}
           </div>
@@ -49,21 +53,20 @@ function Home() {
             />
           </div>
           <img
-        src={heroBg}
-        className="lg:absolute lg:top-0 lg:right-0 w-full h-full object-cover lg:w-[800px] 1320:w-[1000px] 1320:h-[650px] xl:w-[900px]  bottom-0"
-      />
+            src={heroBg}
+            className="lg:absolute lg:top-0 lg:right-0 w-full h-full object-cover lg:w-[800px] 1320:w-[1000px] 1320:h-[650px] xl:w-[900px]  bottom-0"
+          />
         </div>
       </div>
       <Curiousityblock />
       <WorkingBlock />
-    
       <EducationSystem />
       <ImpactEducation />
       <FAQS />
       <FunFact />
       <Blogs />
       <SignBlock />
-      <Footer /> 
+      <Footer />
       {/* 
       
       

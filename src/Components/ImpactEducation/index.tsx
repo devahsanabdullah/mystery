@@ -10,7 +10,7 @@ const ImpactEducation = () => {
             </h1>
           </div>
           <div className="lg:row-span-3 col-span-1 flex items-center justify-center pl-8 pt-5  lg:p-0">
-            <div className="bg-[#FF5F6D] p-12 text-center rounded-tl-[60px] rounded-bl-[60px] hover:scale-105 transform transition-all duration-300 hover:z-10">
+            <div className="bg-[#FF5F6D] p-12 text-center rounded-tl-[60px] rounded-bl-[60px] hover:scale-105 transform transition-all duration-300 hover:z-10 ">
               <h3 className="text-white font-montserratBold text-2xl text-start md:w-80">
                 Early Exposure & Cognitive Development
               </h3>
@@ -21,6 +21,7 @@ const ImpactEducation = () => {
               </p>
             </div>
           </div>
+          
         </div>
 
         <div className="grid lg:grid-cols-2 grid-cols-1 md:pt-10">
@@ -48,7 +49,7 @@ const ImpactEducation = () => {
               math and even reading comprehension
             </p>
             <div>
-              <img src={impact} className='hidden lg:block' />
+              <img src={impact} className="hidden lg:block" />
             </div>
           </div>
 
@@ -67,7 +68,10 @@ const ImpactEducation = () => {
             </div>
           </div>
 
-          <img src={impact} className='flex justify-end items-end w-full lg:hidden ' />
+          <img
+            src={impact}
+            className="flex justify-end items-end w-full lg:hidden "
+          />
         </div>
       </div>
     </div>
