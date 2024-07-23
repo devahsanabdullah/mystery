@@ -1,0 +1,56 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./font/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('./font/Montserrat-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('./font/Montserrat-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-extrabold';
+    src: url('./font/Montserrat-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.card-content {
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .speech-bubble-tip {
+    content: '';
+    position: absolute;
+    bottom: 50px; /* Adjust as needed */
+    left: -42px; /* Adjust as needed */
+    width: 0;
+    height: 0;
+   
+ 
+    margin-left: 0;
+    margin-bottom: 0;
+  }
