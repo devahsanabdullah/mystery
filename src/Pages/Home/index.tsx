@@ -11,7 +11,6 @@ import ButtonUI from '../../Common/Button';
 import Footer from '../../Components/Footer';
 import Navbar from '../../Components/Navbar';
 import { useNavigate } from 'react-router-dom';
-import Work from '../../Components/working/Work';
 function Home() {
   const navigate = useNavigate();
 

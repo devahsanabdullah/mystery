@@ -1,4 +1,4 @@
-import React from 'react';
+
 import workingImg from '../../assets/workinImg.png';
 
 const Work = () => {
