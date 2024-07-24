@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="flex gap-2 items-center">
                 <div>
                   {/* <img src={social} alt="logo" className="w-40" /> */}
-                  <h1 className='text-[#35C5C0] font-montserratBold text-xl'>Get social</h1>
+                  <h1 className='text-[#35C5C0] font-montserrat font-bold text-xl'>Get social</h1>
                 </div>
                 <div>
                   <Link to="/">

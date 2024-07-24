@@ -8,7 +8,7 @@ const SignBlock = () => {
     <div>
       <div className="bg-[#F27253]">
         <div className="container mx-auto">
-          <h1 className="text-white font-montserratBold md:text-6xl max-w-lg text-4xl md:px-0 px-4 text-center md:text-left  md:py-16 py-8">
+          <h1 className="text-white font-montserrat font-bold  md:text-6xl max-w-lg text-4xl md:px-0 px-4 text-center md:text-left  md:py-16 py-8">
             Sign up for the latest deals & drops!
           </h1>
 
@@ -17,7 +17,7 @@ const SignBlock = () => {
               <img src={signImage} alt="images" />
             </div>
             <div className="md:col-span-5 col-span-3">
-              <p className="font-montserratBold text-white md:px-0 px-4  md:text-center text-left">
+              <p className="font-montserrat font-bold  text-white md:px-0 px-4  md:text-center text-left">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 tristique erat tellus, vel tempor diam dignissim vel. Cras elit
                 eros, consequat ac lorem pellentesque, vestibulum dictum ante.
