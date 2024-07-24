@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "type-check": "tsc --noEmit",
-    "prettier": "prettier --write {src/**/*.tsx,src/**/*.ts}",
+    "format": "prettier --write {src/**/*.tsx,src/**/*.ts}",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
