@@ -33,7 +33,7 @@ const Curiousityblock = () => {
               </p>
             </div> */}
             <div className="lg:row-span-3 col-span-1 flex items-center justify-center pl-8 pt-5 lg:p-0 relative">
-              <div className="bg-[#FF5F6D] p-12 text-center rounded-tl-[60px] rounded-bl-[60px] transform transition-transform duration-300 hover:translate-y-[-5px] hover:z-10">
+              <div className="bg-[#FF5F6D] p-12 text-center rounded-tl-[60px] rounded-bl-[60px] transform transition-transform duration-300 hover:translate-y-[-30px] hover:z-10">
                 <h3 className="text-white font-montserratBold text-2xl text-start md:w-80">
                   Early Exposure & Cognitive Development
                 </h3>
