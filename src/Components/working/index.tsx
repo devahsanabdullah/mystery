@@ -6,7 +6,7 @@ function WorkingBlock() {
         <div className="container mx-auto md:pt-14  px-4 lg:px-0 ">
           <div className="grid  text-center items-center justify-center md:px-4 md:pb-32 pb-14">
             <div>
-              <h2 className="text-white font-montserrat font-bold md:text-6xl text-4xl">
+              <h2 className="text-white font-montserratExtrabold lg:text-8xl md:text-6xl  text-5xl">
                 How It Works
               </h2>
             </div>

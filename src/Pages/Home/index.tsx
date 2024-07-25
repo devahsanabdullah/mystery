@@ -20,24 +20,24 @@ function Home() {
         <Navbar />
         <div className=" relative h-auto lg:h-[650px]">
           <div className="md:p-8 p-4">
-            <p className="font-montserrat font-bold md:text-4xl text-2xl">
+            <p className="font-montserratBold  md:text-4xl text-2xl">
               START YOUR CHILD’S{' '}
             </p>
-            <p className="font-montserrat font-bold md:text-4xl text-2xl">
+            <p className="font-montserratBold  md:text-4xl text-2xl">
               MORNING WITH
             </p>
-            <p className="font-montserrat font-bold md:text-4xl text-2xl">WONDER</p>
-            {/* <p className="font-montserratBold md:text-4xl text-2xl uppercase ">START YOUR CHILD’S MORNING WITH WONDER</p> */}
+            <p className="font-montserratBold  md:text-4xl text-2xl">WONDER</p>
+            {/* <p className="font-montserratBoldBold md:text-4xl text-2xl uppercase ">START YOUR CHILD’S MORNING WITH WONDER</p> */}
           </div>
           <div className="bg-[#FF5F6D] md:p-8 p-4 lg:w-4/5 rounded-tr-[60px] rounded-br-[60px]  w-3/5 md:block flex justify-between ">
             <div className="">
-              <p className="font-montserrat  font-bold md:text-6xl text-2xl text-white">
+              <p className="font-montserratBold   md:text-6xl text-2xl text-white">
                 DAILY STEM{' '}
               </p>
-              <p className="font-montserrat  font-bold md:text-6xl text-2xl text-white">
+              <p className="font-montserratBold   md:text-6xl text-2xl text-white">
                 ADVENTURES{' '}
               </p>
-              <p className="font-montserrat  font-bold md:text-6xl text-2xl text-white">
+              <p className="font-montserratBold   md:text-6xl text-2xl text-white">
                 FOR KIDS
               </p>
             </div>
