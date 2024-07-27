@@ -4,13 +4,13 @@ const Curiousityblock = () => {
   return (
     <div className="">
       <div className="bg-[#62A0E3] ">
-        <div className="container mx-auto pb-5 px-4 pt-8 md:pt-16 md:pl-24">
+        
           <div>
-            <h1 className="text-white font-montserratBold py-5 lg:text-8xl md:text-6xl text-5xl  lg:w-[60rem] text-center md:text-start">
+            <h1 className="text-white font-montserratBold  pt-16 pl-4 lg:pl-16 pb-8 lg:text-8xl md:text-6xl text-5xl   lg:w-[64rem] text-start">
               Unlock curiosity one text at a time.
             </h1>
           </div>
-        </div>
+      
 
         <div className="grid md:grid-rows-3 grid-rows-2 grid-flow-col">
           <div className="row-span-3 hidden lg:block relative">
@@ -20,9 +20,9 @@ const Curiousityblock = () => {
               alt="Curiosity"
             />
           </div>
-          <div className="row-span-3 col-span-1 flex items-center justify-center p-4  md:p-0 ">
-            <div className="lg:row-span-3 col-span-1 flex items-center justify-center pl-8 pt-5 lg:p-0 relative">
-              <div className="bg-[#FF5F6D] md:p-8 p-8 lg:p-12 text-center rounded-tl-[60px] rounded-bl-[60px] transform transition-transform duration-300 hover:translate-y-[-30px] hover:z-10">
+          <div className="row-span-3 col-span-1 flex items-center justify-center  md:p-0 ">
+            <div className="lg:row-span-3 col-span-1 flex items-center justify-center pl-12 pt-5 lg:p-0 relative">
+              <div className="bg-[#FF5F6D] md:p-8 p-8 lg:p-14 text-center rounded-tl-[60px] rounded-bl-[60px] transform transition-transform duration-300 hover:translate-y-[-30px] hover:z-10">
                 <p className="text-white text-start font-montserratExtrabold md:text-2xl text-base">
                   Welcome to Morning Mystery, where engaging STEM education
                   arrives directly to your phone. Every morning, spark your

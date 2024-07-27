@@ -3,20 +3,20 @@ const EducationSystem = () => {
     <div className="">
       <div className="bg-[#FFE4B5]">
         <div>
-          <h1 className="text-[#FF5F6D] font-montserrat font-extrabold flex justify-center md:py-16 py-8 px-12 md:px-24   md:text-7xl text-4xl ">
+          <h1 className="text-[#FF5F6D] font-montserratExtrabold flex text-center justify-center md:py-16 py-8 px-12 md:px-24   md:text-7xl text-4xl ">
             STEM Education Through Text
           </h1>
         </div>
         <div className="container mx-auto pb-24">
-          <div className="grid md:grid-cols-2  grid-cols-1 justify-center gap-8 md:px-0 px-4">
+          <div className="grid md:grid-cols-2  grid-cols-1 justify-center gap-12 md:px-0 px-4">
             {[1, 2, 3, 4].map(index => {
               return (
                 <div key={index}>
-                  <h3 className="text-[#62A0E3] font-montserrat font-bold flex justify-center py-4">
+                  <h3 className="text-[#62A0E3] font-montserratExtrabold tex-5xl flex justify-center py-4">
                     Morning Age 4-5
                   </h3>
                   <div className="relative hover:scale-105 transform transition-all duration-300 hover:z-10">
-                    <div className=" text-center  bg-white text-sm rounded-md  px-10 py-3 card-content">
+                    <div className="  font-montserratBold bg-white  rounded-md  px-8 py-3 card-content">
                       Hi Sarah! ☀️ Today's Mystery Message is about fluffy
                       clouds! ☁️ Did you know they're made of tiny water
                       droplets? Can you pretend to blow on a cotton ball and see

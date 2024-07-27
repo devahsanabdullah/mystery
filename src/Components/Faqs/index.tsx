@@ -19,10 +19,10 @@ const FAQS = () => {
           {/* */}
           <div className="md:col-span-5  col-span-6">
           
-            <h1 className="text-6xl font-bold  font-montserrat  md:block hidden text-white">FAQ’s</h1>
+            <h1 className="text-6xl font-montserratExtrabold md:block hidden text-white">FAQ’s</h1>
             <img src={faqs} alt="faqs" className="md:w-96  w-40  md:mt-10  mt-5 md:block hidden"  />
             <div className=' md:hidden  flex justify-between items-center w-full'>
-            <h1 className="text-6xl font-extrabold  font-montserrat text-white">FAQ’s</h1>
+            <h1 className="text-6xl font-montserratExtrabold text-white">FAQ’s</h1>
             <img src={faqs} alt="faqs" className="w-28"  />
             </div>
           </div>
@@ -45,12 +45,12 @@ const FAQS = () => {
                         {openSections.includes(index) ? '-' : '+'}
                       </span>
                     </div>
-                    <h1 className="text-white font-montserrat font-bold md:text-4xl text-2xl">
+                    <h1 className="text-white font-montserratExtrabold md:text-4xl text-2xl">
                       {title}
                     </h1>
                   </div>
                   {openSections.includes(index) && (
-                    <p className="text-white text-base font-montserrat font-bold mt-4 mb-4 pl-12">
+                    <p className="text-white text-base font-montserratBold mt-4 mb-4 pl-12">
                       {description}
                     </p>
                   )}

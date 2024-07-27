@@ -9,12 +9,12 @@ const Footer = () => {
       <div>
         <div className="bg-[#FFE4B5]">
           <div className="container mx-auto py-8">
-            <div className="flex md:justify-between flex-wrap justify-center  items-center">
+            <div className="flex md:justify-between flex-wrap justify-start  items-center">
               <div>
-                <img src={logo} alt="logo" className="w-64 h-24" />
+                <img src={logo} alt="logo" className="md:w-64 w-48  md:h-24" />
               </div>
 
-              <div className="flex gap-2 items-center">
+              <div className=" gap-2 hidden md:flex items-center">
                 <div>
                   {/* <img src={social} alt="logo" className="w-40" /> */}
                   <h1 className='text-[#35C5C0] font-montserrat font-bold text-xl'>Get social</h1>
