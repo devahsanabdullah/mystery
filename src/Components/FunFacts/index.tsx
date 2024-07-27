@@ -4,7 +4,7 @@ const FunFact = () => {
     <div>
       <div className="bg-[#62A0E3] ">
         <div className=" py-12">
-          <h1 className="font-montserratExtrabold font-bold text-center text-white md:text-6xl container mx-auto  md:w-[62%]   text-5xl leading-snug">
+          <h1 className="font-montserratBold md:font-montserratBold font-bold text-center text-white md:text-6xl container mx-auto  md:w-[62%]   text-4xl leading-snug">
             “What a fun and engaging way to start the morning! My little girl
             remembers her Morning Mystery and looks forward to her afternoon
             text! What a fun concept!”
