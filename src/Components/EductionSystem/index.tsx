@@ -16,7 +16,7 @@ const EducationSystem = () => {
                     Morning Age 4-5
                   </h3>
                   <div className="relative hover:scale-105 transform transition-all duration-300 hover:z-10">
-                    <div className="  font-montserratBold bg-white  rounded-md  px-8 py-3 card-content">
+                    <div className="  font-montserrat font-bold bg-white  rounded-md  px-8 py-3 card-content">
                       Hi Sarah! ☀️ Today's Mystery Message is about fluffy
                       clouds! ☁️ Did you know they're made of tiny water
                       droplets? Can you pretend to blow on a cotton ball and see

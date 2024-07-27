@@ -9,29 +9,29 @@ const Footer = () => {
       <div>
         <div className="bg-[#FFE4B5]">
           <div className="container mx-auto py-8">
-            <div className="flex md:justify-between flex-wrap justify-start  items-center">
+            <div className="flex justify-between   items-center">
               <div>
                 <img src={logo} alt="logo" className="md:w-64 w-48  md:h-24" />
               </div>
 
-              <div className=" gap-2 hidden md:flex items-center">
+              <div className=" gap-2 flex items-center">
                 <div>
                   {/* <img src={social} alt="logo" className="w-40" /> */}
-                  <h1 className='text-[#35C5C0] font-montserrat font-bold text-xl'>Get social</h1>
+                  <h1 className='text-[#35C5C0] md:block hidden font-montserrat font-bold text-xl'>Get social</h1>
                 </div>
                 <div>
                   <Link to="/">
-                    <img src={fb} alt="logo" className="md:w-12 w-11 " />
+                    <img src={fb} alt="logo" className="md:w-12 w-8 " />
                   </Link>
                 </div>
                 <div>
                   <Link to="/">
-                    <img src={x} alt="logo" className="md:w-12 w-11" />
+                    <img src={x} alt="logo" className="md:w-12 w-8" />
                   </Link>
                 </div>
                 <div>
                   <Link to="/">
-                    <img src={instgram} alt="logo" className="md:w-12 w-11" />
+                    <img src={instgram} alt="logo" className="md:w-12 w-8" />
                   </Link>
                 </div>
               </div>

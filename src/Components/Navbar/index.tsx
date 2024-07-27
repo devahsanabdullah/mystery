@@ -34,7 +34,7 @@ function Navbar({ isSticky }:any) {
               className="text-black focus:outline-none"
             >
               <svg
-                className="w-6 h-6"
+                className="w-9 h-9"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
