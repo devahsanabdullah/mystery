@@ -66,6 +66,33 @@ const Register = () => {
                         <div className="text-red-600">{errors.lastName}</div>
                       )}
                     </div>
+                    
+                    <div className="mt-2.5 md:px-0 px-4">
+                      <Field
+                        id="lastName"
+                        name="lastName"
+                        type="text"
+                        autoComplete="given-lastName"
+                        placeholder="Childs Name "
+                        className="block w-full border-l-4 border-[#62A0E3] px-3.5 py-2 outline-none placeholder:font-montserratBold placeholder:text-[#35C5C0]"
+                      />
+                      {touched.lastName && errors.lastName && (
+                        <div className="text-red-600">{errors.lastName}</div>
+                      )}
+                    </div>
+                    <div className="mt-2.5 md:px-0 px-4">
+                      <Field
+                        id="lastName"
+                        name="lastName"
+                        type="text"
+                        autoComplete="given-lastName"
+                        placeholder="Childs age"
+                        className="block w-full border-l-4 border-[#62A0E3] px-3.5 py-2 outline-none placeholder:font-montserratBold placeholder:text-[#35C5C0]"
+                      />
+                      {touched.lastName && errors.lastName && (
+                        <div className="text-red-600">{errors.lastName}</div>
+                      )}
+                    </div>
 
                     <div className="mt-2.5 md:px-0 px-4">
                       <Field
@@ -73,7 +100,7 @@ const Register = () => {
                         name="userName"
                         type="text"
                         autoComplete="given-userName"
-                        placeholder="UserName"
+                        placeholder="Username"
                         className="block w-full border-l-4 border-[#62A0E3] px-3.5 py-2 outline-none placeholder:font-montserratBold placeholder:text-[#35C5C0]"
                       />
                       {touched.userName && errors.userName && (
