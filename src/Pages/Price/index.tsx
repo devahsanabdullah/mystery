@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Navbar from '../../Components/Navbar';
 import priceImage from '../../assets/pricing.png';
 
