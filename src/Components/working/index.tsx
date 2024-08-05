@@ -12,7 +12,7 @@ function WorkingBlock() {
             </div>
           </div>
 
-          <div className="">
+         
             <div className="grid lg:grid-cols-3 grid-cols-1  gap-2">
               <div className="flex justify-center items-end relative lg:mb-0 mb-8">
                 <div className="absolute lg:left-28 lg:-top-48 hidden  lg:flex justify-center items-start ">
@@ -28,7 +28,7 @@ function WorkingBlock() {
                       1.
                     </h2>
                     <div className="text-white text-center lg:text-4xl text-2xl">
-                      <h2 className="font-montserratBold  lg:px-20 pt-8  ">
+                      <h2 className="font-montserratBold  lg:px-20 pt-8">
                         Easy Sign up
                       </h2>
                       <p className="font-montserratExtrabold text-lg   lg:px-14 py-7 px-4">
@@ -80,7 +80,7 @@ function WorkingBlock() {
                 </div>
               </div>
             </div>
-          </div>
+        
         </div>
       </div>
     </div>

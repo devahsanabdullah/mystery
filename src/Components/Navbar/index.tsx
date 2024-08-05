@@ -11,7 +11,7 @@ function Navbar({ isSticky }:any) {
   return (
     <>
       <div className={`z-20 bg-[#FFE4B5] ${isSticky ? 'fixed w-full top-0' : ''}`}>
-        <div className="flex justify-between items-center md:p-6 p-4">
+        <div className="flex justify-between items-center md:pb-2 px-6 pb-4 px-4">
           <Link to="/">
             <img src={logo} alt="Logo" className="md:w-64 w-48" />
           </Link>
