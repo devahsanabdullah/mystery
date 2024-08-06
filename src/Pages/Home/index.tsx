@@ -12,6 +12,7 @@ import ButtonUI from '../../Common/Button';
 import Footer from '../../Components/Footer';
 import Navbar from '../../Components/Navbar';
 import { useNavigate } from 'react-router-dom';
+import Pricing from '../Price';
 function Home() {
   const navigate = useNavigate();
   const [isSticky, setIsSticky] = useState(false);
@@ -73,6 +74,7 @@ function Home() {
       </div>
     </div>
       <Curiousityblock />
+      <Pricing />
       <WorkingBlock />
       <EducationSystem />
       <ImpactEducation />
