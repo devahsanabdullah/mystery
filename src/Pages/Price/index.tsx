@@ -1,30 +1,8 @@
 import priceImage from '../../assets/pricing.png';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 768, // Small screens
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 1024, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-  ],
-};
+
+import { settings } from '../../Constants/swiper';
+
 const Pricing = () => {
   return (
     <div className="bg-[#FFE4B5] py-16 flex flex-col">
@@ -110,11 +88,13 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+
+        {/* small device */}
         <div className="md:hidden block">
           <div className="container mx-auto mt-8">
             <Slider {...settings}>
               <div className="flex justify-center items-end  mb-8 px-4">
-                <div className="bg-[#FF7799] flex flex-col justify-between items-center rounded-tl-full rounded-tr-full h-[28rem]  max-w-60 hover:scale-105 transform transition-all duration-300 hover:z-10">
+                <div className="bg-[#FF7799] flex flex-col justify-between items-center rounded-tl-full rounded-tr-full h-[28rem]  max-w-60  ">
                   <div className="text-center">
                     <h2 className="text-white font-montserratBold text-4xl mt-24">
                       Basic Tier
@@ -135,14 +115,13 @@ const Pricing = () => {
                 </div>
               </div>
 
-              {/* Repeat the same structure for the other tiers */}
               <div className="flex justify-center items-end mb-8 px-4">
-                <div className="bg-[#35C5C0] flex flex-col justify-between items-center rounded-tl-full rounded-tr-full h-[28rem] max-w-60 hover:scale-105 transform transition-all duration-300 hover:z-10">
+                <div className="bg-[#35C5C0] flex flex-col justify-between items-center rounded-tl-full rounded-tr-full h-[28rem] max-w-60 ">
                   <div className="text-center">
                     <h2 className="text-white font-montserratBold text-4xl mt-24">
                       Standard Tier
                     </h2>
-                    <div className="text-white text-center lg:text-4xl text-2xl">
+                    <div className="text-white text-center  text-2xl">
                       <h2 className="font-montserratBold px-7 pt-4">
                         $12. <sup>99</sup>
                         <span className="text-base">/ month</span>
@@ -162,7 +141,7 @@ const Pricing = () => {
                 <div className="absolute lg:right-16 lg:-top-[92px] hidden lg:flex justify-center items-start">
                   <img src={priceImage} alt="Pro Tier Image" className="w-36" />
                 </div>
-                <div className="bg-[#62A0E3] flex flex-col justify-between items-center rounded-tl-full rounded-tr-full h-[28rem] max-w-60 lg:absolute -z-0 hover:scale-105 transform transition-all duration-300 hover:z-10">
+                <div className="bg-[#62A0E3] flex flex-col justify-between items-center rounded-tl-full rounded-tr-full h-[28rem] max-w-60 lg:absolute -z-0  ">
                   <div className="text-center">
                     <h2 className="text-white font-montserratBold text-4xl mt-16">
                       Pro Tier

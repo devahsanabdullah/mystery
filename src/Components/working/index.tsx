@@ -1,8 +1,10 @@
+import Slider from 'react-slick';
 import workingImg from '../../assets/workinImg.png';
+import { settings } from '../../Constants/swiper';
 function WorkingBlock() {
   return (
     <div>
-      <div className="bg-[#35C5C0] md:pt-8 px-11  pt-12">
+      <div className="bg-[#35C5C0] md:pt-8 px-11  md:pb-0 pt-12 pb-12">
         <div className="container mx-auto md:pt-14  px-4 lg:px-0 ">
           <div className="grid  text-center items-center justify-center md:px-4 lg:pb-32 pb-14">
             <div>
@@ -12,7 +14,7 @@ function WorkingBlock() {
             </div>
           </div>
 
-         
+          <div className="md:block hidden">
             <div className="grid lg:grid-cols-3 grid-cols-1  gap-2">
               <div className="flex justify-center items-end relative lg:mb-0 mb-8">
                 <div className="absolute lg:left-28 lg:-top-48 hidden  lg:flex justify-center items-start ">
@@ -62,14 +64,14 @@ function WorkingBlock() {
               </div>
 
               <div className="flex justify-center items-end  lg:mb-0 mb-8 ">
-                <div className="bg-[#FF7799] rounded-tl-full rounded-tr-full lg::h-[120%] w-80 hover:scale-105 transform transition-all duration-300 hover:z-10">
+                <div className="bg-[#FF7799] rounded-tl-full rounded-tr-full lg:h-[120%] w-80 hover:scale-105 transform transition-all duration-300 hover:z-10">
                   <div className="text-center">
                     <h2 className="text-white font-montserratBold   lg:text-6xl text-4xl mt-16">
                       3.
                     </h2>
                     <div className="text-white  text-center lg:text-4xl text-2xl">
                       <h2 className="font-montserratBold  font-bold px-7 pt-4">
-                      Springboard  <br /> for <br /> Deeper Learning
+                        Springboard <br /> for <br /> Deeper Learning
                       </h2>
                       <p className="font-montserratExtrabold    text-lg font-bold  lg:px-14 py-7 px-4">
                         Add links to papers, sites, or other resources related
@@ -80,7 +82,72 @@ function WorkingBlock() {
                 </div>
               </div>
             </div>
-        
+          </div>
+          {/* small device */}
+          <div className="md:hidden block">
+            <div className="container mx-auto ">
+              <Slider {...settings}>
+                <div className="flex justify-center items-end relative   mb-8 px-4">
+                  <div className="bg-[#FF7799] rounded-tl-full rounded-tr-full  mt-5  max-w-60 lg:absolute ">
+                    <div className="text-center p-2">
+                      <h2 className="text-white font-montserratBold  text-4xl mt-16">
+                        1.
+                      </h2>
+                      <div className="text-white text-center   text-2xl">
+                        <h2 className="font-montserratBold  pt-8">
+                          Easy Sign up
+                        </h2>
+                        <p className="font-montserratExtrabold text-lg py-11 px-4">
+                          Add links to papers, sites, or other resources related
+                          to your topic.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex justify-center items-end   mb-8 px-4">
+                  <div className="bg-[#FF7799] rounded-tl-full rounded-tr-full   max-w-60">
+                    <div className="text-center p-2">
+                      <h2 className="text-white font-montserratBold   text-4xl mt-16">
+                        2.
+                      </h2>
+                      <div className="text-white  text-center   text-2xl">
+                        <h2 className="font-montserratBold   px-7 pt-4">
+                          Daily Doses of
+                          <br />
+                          Science
+                        </h2>
+                        <p className="font-montserratExtrabold text-lg font-bold py-7 px-4">
+                          Add links to papers, sites, or other resources related
+                          to your topic.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex justify-center items-end  lg:mb-0 mb-8 px-4">
+                  <div className="bg-[#FF7799] rounded-tl-full rounded-tr-full  max-w-60">
+                    <div className="text-center p-2">
+                      <h2 className="text-white font-montserratBold text-4xl mt-16">
+                        3.
+                      </h2>
+                      <div className="text-white  text-center text-2xl">
+                        <h2 className="font-montserratBold  font-bold px-7 pt-4">
+                          Springboard <br /> for <br /> Deeper Learning
+                        </h2>
+                        <p className="font-montserratExtrabold  text-lg font-bold  py-3 px-4">
+                          Add links to papers, sites, or other resources related
+                          to your topic.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </div>
         </div>
       </div>
     </div>

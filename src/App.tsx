@@ -5,6 +5,7 @@ import About from './Pages/About';
 import Home from './Pages/Home';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
+import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 const App: React.FC = () => {
   return (
